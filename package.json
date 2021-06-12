@@ -1,11 +1,14 @@
 {
   "name": "sr-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "main": "index.js",
   "repository": "git@github.com:omriLugasi/semantic-release-test.git",
   "author": "omri <omlrc1991@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "publish-new-tag": "CI=true GH_TOKEN=<TOKEN> ./node_modules/.bin/semantic-release"
+  },
   "dependencies": {
     "semantic-release": "^17.4.3"
   }
