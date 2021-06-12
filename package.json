@@ -1,6 +1,7 @@
 {
   "name": "sr-test",
   "version": "0.0.0",
+  "private": true,
   "main": "index.js",
   "repository": "git@github.com:omriLugasi/semantic-release-test.git",
   "author": "omri <omlrc1991@gmail.com>",
