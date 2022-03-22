@@ -2,7 +2,7 @@
   "name": "sr-test",
   "version": "1.1.0",
   "private": true,
-  "main": "index.js",
+  "main": "index_1.js",
   "repository": "git@github.com:omriLugasi/semantic-release-test.git",
   "author": "omri <omlrc1991@gmail.com>",
   "license": "MIT",
@@ -11,7 +11,6 @@
     "commit": "cz"
   },
   "dependencies": {
-    "commitizen": "^4.2.4",
     "semantic-release": "^17.4.3"
   },
   "release": {
