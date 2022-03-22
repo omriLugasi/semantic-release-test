@@ -102,5 +102,8 @@
       "@semantic-release/github"
     ],
     "debug": true
+  },
+  "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^4.6.3"
   }
 }
