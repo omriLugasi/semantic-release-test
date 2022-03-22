@@ -26,4 +26,4 @@ jobs:
         with:
           node-version: '14'
       - run: yarn install
-      - run: GH_TOKEN=${{ secrets.BASIC_TOKEN }}  ./node_modules/.bin/semantic-release
+      - run: GH_TOKEN=${{ secrets.BASIC_TOKEN }}  ./node_modules/.bin/semantic-release --debug
