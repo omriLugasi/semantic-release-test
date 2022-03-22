@@ -7,26 +7,51 @@
   "author": "omri <omlrc1991@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "publish-new-tag": "CI=true GH_TOKEN=<TOKEN> ./node_modules/.bin/semantic-release"
+    "publish-new-tag": "CI=true GH_TOKEN=<TOKEN> ./node_modules/.bin/semantic-release",
+    "commit": "cz"
   },
   "dependencies": {
+    "commitizen": "^4.2.4",
     "semantic-release": "^17.4.3"
   },
   "release": {
-    "branches": ["master", "main"],
+    "branches": [
+      "master",
+      "main"
+    ],
     "plugins": [
-      ["@semantic-release/commit-analyzer", {
-        "preset": "angular",
-        "releaseRules": [
-          {"type": "docs", "scope":"Docs", "release": "patch"},
-          {"type": "tests", "scope":"Test", "release": "patch"},
-          {"type": "refactor", "release": "patch"},
-          {"type": "style", "release": "patch"}
-        ],
-        "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules": [
+            {
+              "type": "docs",
+              "scope": "Docs",
+              "release": "patch"
+            },
+            {
+              "type": "tests",
+              "scope": "Test",
+              "release": "patch"
+            },
+            {
+              "type": "refactor",
+              "release": "patch"
+            },
+            {
+              "type": "style",
+              "release": "patch"
+            }
+          ],
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES"
+            ]
+          }
         }
-      }],
+      ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/github"
     ],
