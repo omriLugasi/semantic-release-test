@@ -49,7 +49,56 @@
           }
         }
       ],
-      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits",
+          "presetConfig": {
+            "types": [
+              {
+                "type": "feat",
+                "section": ":sparkles: Features",
+                "hidden": false
+              },
+              {
+                "type": "fix",
+                "section": ":bug: Bug Fixes",
+                "hidden": false
+              },
+              {
+                "type": "docs",
+                "section": ":memo: Docs",
+                "hidden": false
+              },
+              {
+                "type": "style",
+                "section": ":barber: Design",
+                "hidden": false
+              },
+              {
+                "type": "refactor",
+                "section": ":zap: Refactor",
+                "hidden": false
+              },
+              {
+                "type": "perf",
+                "section": ":fast_forward: Performance",
+                "hidden": false
+              },
+              {
+                "type": "test",
+                "section": ":white_check_mark: Testes",
+                "hidden": false
+              },
+              {
+                "type": "chore",
+                "section": ":white_check_mark: Chores",
+                "hidden": false
+              }
+            ]
+          }
+        }
+      ],
       "@semantic-release/github"
     ],
     "debug": true
