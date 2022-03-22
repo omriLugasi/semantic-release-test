@@ -39,6 +39,10 @@
             {
               "type": "style",
               "release": "patch"
+            },
+            {
+              "type": "chore",
+              "release": "patch"
             }
           ],
           "parserOpts": {
@@ -100,8 +104,7 @@
         }
       ],
       "@semantic-release/github"
-    ],
-    "debug": true
+    ]
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.3"
