@@ -2,7 +2,7 @@
   "name": "sr-test",
   "version": "1.1.0",
   "private": true,
-  "main": "index_2.js",
+  "main": "index_3.js",
   "repository": "git@github.com:omriLugasi/semantic-release-test.git",
   "author": "omri <omlrc1991@gmail.com>",
   "license": "MIT",
