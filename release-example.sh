@@ -31,9 +31,14 @@ date > echo
 
 git add .
 
-git commit -m "style:  add test file"
+git commit -m "test:  add test file"
 
 git push --set-upstream origin "f/$1"
+
+git checkout main
+
+git pull
+
 
 
 
