@@ -10,47 +10,47 @@ node -v > echo '.nvmrc$1'
 
 git add .
 
-git commit -m "docs:  add nvmrc file"
+git commit -m "docs(Scope_name):  add nvmrc file"
 
 
 date > echo
 
 git add .
 
-git commit -m "fix:  add nvmrc file"
+git commit -m "fix(Scope_name):  add nvmrc file"
 
 
 node -v > echo
 
 git add .
 
-git commit -m "style:  add nvmrc file"
+git commit -m "style(Scope_name):  add nvmrc file"
 
 
 date > echo
 
 git add .
 
-git commit -m "test:  add test file"
+git commit -m "test(Scope_name):  add test file"
 
 date > echo
 
 git add .
 
-git commit -m "test:  more test here 1"
+git commit -m "test(Scope_name):  more test here 1"
 
 date > echo
 
 git add .
 
-git commit -m "test:  more test here 2"
+git commit -m "test(Scope_name):  more test here 2"
 
 
 date > echo
 
 git add .
 
-git commit -m "test:  more test here 3"
+git commit -m "test(Scope_name):  more test here 3"
 
 git push --set-upstream origin "f/$1"
 
