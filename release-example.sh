@@ -33,7 +33,7 @@ git add .
 
 git commit -m "test:  add test file"
 
-date > echo
+node -v > echo
 
 git add .
 
@@ -46,7 +46,7 @@ git add .
 git commit -m "test:  more test here 2"
 
 
-date > echo
+node -v > echo
 
 git add .
 
