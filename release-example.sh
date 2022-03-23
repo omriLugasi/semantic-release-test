@@ -33,11 +33,27 @@ git add .
 
 git commit -m "test:  add test file"
 
+date > echo
+
+git add .
+
+git commit -m "test:  more test here 1"
+
+date > echo
+
+git add .
+
+git commit -m "test:  more test here 2"
+
+
+date > echo
+
+git add .
+
+git commit -m "test:  more test here 3"
+
 git push --set-upstream origin "f/$1"
 
-git checkout main
-
-git pull
 
 
 
