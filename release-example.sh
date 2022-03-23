@@ -55,6 +55,11 @@ git commit -m "test:  more test here 3"
 git push --set-upstream origin "f/$1"
 
 
+# https://semantic-release.gitbook.io/semantic-release/support/troubleshooting#squashed-commits-are-ignored-by-semantic-release
+# https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+# https://commitlint.js.org/#/
+
+
 
 
 
