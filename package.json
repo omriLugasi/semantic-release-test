@@ -11,6 +11,8 @@
     "commit": "cz"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4",
     "semantic-release": "^17.4.3"
   },
   "release": {
@@ -108,5 +110,10 @@
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn commitlint --edit $1"
+    }
   }
 }

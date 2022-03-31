@@ -23,6 +23,13 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@commitlint/config-conventional@^16.2.1":
+  version "16.2.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-16.2.1.tgz#2cf47b505fb259777c063538c8498d8fd9b47779"
+  integrity sha512-cP9gArx7gnaj4IqmtCIcHdRjTYdRUi6lmGE+lOzGGjGe45qGOS8nyQQNvkNy2Ey2VqoSWuXXkD8zCUh6EHf1Ww==
+  dependencies:
+    conventional-changelog-conventionalcommits "^4.3.1"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -830,7 +837,7 @@ conventional-changelog-angular@^5.0.0:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-conventionalcommits@^4.6.3:
+conventional-changelog-conventionalcommits@^4.3.1, conventional-changelog-conventionalcommits@^4.6.3:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.3.tgz#0765490f56424b46f6cb4db9135902d6e5a36dc2"
   integrity sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==
@@ -1457,6 +1464,11 @@ humanize-ms@^1.2.1:
   integrity sha1-xG4xWaKT9riW2ikxbYtv6Lt5u+0=
   dependencies:
     ms "^2.0.0"
+
+husky@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
+  integrity sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==
 
 iconv-lite@^0.6.2:
   version "0.6.3"
