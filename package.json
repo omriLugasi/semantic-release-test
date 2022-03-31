@@ -113,7 +113,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn commitlint --edit $1"
+      "pre-commit": "yarn commitlint --edit $1",
+      "commit-msg": "yarn commitlint --edit $1"
     }
   }
 }
