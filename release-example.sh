@@ -10,7 +10,7 @@ node -v > echo '.nvmrc$1'
 
 git add .
 
-git commit -m "docs:  add nvmrc file"
+git commit -m "docs(README):  add nvmrc file"
 
 
 date > echo
