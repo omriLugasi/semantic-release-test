@@ -12,7 +12,6 @@ git add .
 
 git commit -m "docs(README):  add nvmrc file"
 
-
 date > echo
 
 git add .
