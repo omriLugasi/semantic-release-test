@@ -7,13 +7,18 @@
   "author": "omri <omlrc1991@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "publish-new-tag": "CI=true GH_TOKEN=<TOKEN> ./node_modules/.bin/semantic-release",
-    "commit": "cz"
+    "publish-new-tag": "CI=true GH_TOKEN=<TOKEN> ./node_modules/.bin/semantic-release"
   },
   "dependencies": {
+    "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "husky": "^7.0.4",
     "semantic-release": "^17.4.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "yarn commitlint --edit $1"
+    }
   },
   "release": {
     "branches": [
@@ -110,11 +115,5 @@
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn commitlint --edit $1",
-      "commit-msg": "yarn commitlint --edit $1"
-    }
   }
 }
