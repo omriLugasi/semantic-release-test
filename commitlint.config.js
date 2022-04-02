@@ -14,7 +14,7 @@ module.exports = {
   },
   parserPreset: {
     parserOpts: {
-      issuePrefixes: ['feature/IN-']
+      issuePrefixes: ['^feature/IN-']
     }
   }
 }
