@@ -12,6 +12,11 @@ module.exports = {
       "chore"
     ]]
   },
+  parserPreset: {
+    parserOpts: {
+      issuePrefixes: ['feature/IN-']
+    }
+  }
 }
 
 
